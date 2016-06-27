@@ -1,0 +1,20 @@
+{
+  "name": "generator",
+  "version": "1.0.0",
+  "description": "Generate a library skeleton",
+  "main": "generator.js",
+  "scripts": {
+    "generate": "./node_modules/.bin/plop"
+  },
+  "keywords": ["generator", "lib", "skeleton"],
+  "author": "ckn",
+  "license": "MIT",
+  "dependencies": {
+    "git-init": "^1.0.0",
+    "mz": "^2.4.0",
+    "plop": "^1.5.0",
+    "promisify-node": "^0.4.0",
+    "recursive-copy": "^2.0.5",
+    "rmrf": "^1.0.2"
+  }
+}
